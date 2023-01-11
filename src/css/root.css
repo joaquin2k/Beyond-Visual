@@ -4,18 +4,57 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #FFBA19;
-    --primaryShade: #ffd675;
-    --primaryDark: #805d0d;
-    --bodyTextColor: #4E4B66;
-    --bodyTextColorWhite: #FAFBFC;
-    --headerColor: #1a1a1a;
+    --primary: #007CFB;
+    --primaryLight: #66b0fd;
+    --secondary: #2db8f8;
+    --headerColor: #000000;
+    --bodyTextColor: #000000;
+    --bodyTextColorWhite: #f7f7f7;
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
     /* 31px - 49px */
     --headerFontSize: clamp(1.9375rem, 4.5vw, 3.0625rem);
     /* 60px - 100px top and bottom */
     --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+  }
+  #sbs .cs-topper,
+  #sbs-r .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    display: block;
+  }
+  #sbs .cs-title,
+  #sbs-r .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: left;
+    max-width: 27.125rem;
+    margin: 0 auto 1rem 0;
+    margin-left: 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbs .cs-text,
+  #sbs-r .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: left;
+    width: 100%;
+    max-width: 46.875rem;
+    margin: 0 auto 0 0;
+    margin-bottom: 1rem;
+    color: var(--bodyTextColor);
+  }
+  #sbs .cs-text:last-of-type,
+  #sbs-r .cs-text:last-of-type {
+    margin-bottom: 2.5rem;
   }
   /* roboto-regular - latin */
   @font-face {

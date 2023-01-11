@@ -54,8 +54,8 @@ However, how do we set dynamic active states to show which page you're on? Here'
     <ul>
         <li><a class="{{ 'active' if '' == page.fileSlug }}" href="/">Home</a></li>
         <li><a class="{{ 'active' if 'about' == page.fileSlug }}" href="/about">About Us</a></li>
-        <li><a class="{{ 'active' if 'projects' == page.fileSlug }}" href="/projects">Projects</a></li>
-        <li><a class="{{ 'active' if 'reviews' == page.fileSlug }}" href="/reviews">Reviews</a></li>
+        <li><a class="{{ 'active' if 'projects' == page.fileSlug }}" href="/projects">Services</a></li>
+
         <li><a class="{{ 'active' if 'blog' == page.fileSlug }}" href="/blog">Blog</a></li>
         <li><a class="{{ 'active' if 'contact' == page.fileSlug }}" href="/contact">Contact</a></li>
     </ul>
