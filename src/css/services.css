@@ -207,7 +207,7 @@
 @media only screen and (min-width: 0rem) {
   body.dark-mode #sbs .cs-topper,
   body.dark-mode #sbs-r .cs-topper {
-    color: var(--secondary);
+    color: var(--primary);
   }
   body.dark-mode #sbs .cs-title,
   body.dark-mode #sbs-r .cs-title,
@@ -513,6 +513,7 @@
     color: var(--primary);
     margin-bottom: 1rem;
     display: block;
+
   }
   #pricing-4987 .cs-title {
     font-size: var(--headerFontSize);
@@ -641,7 +642,7 @@
     min-width: 9.375rem;
     margin: 0 0 2rem;
     padding: 0 1.5rem;
-    background-color: var(--primaryLight);
+    background-color: var(--primary);
     border-radius: 0.25rem;
     display: block;
     position: relative;
@@ -731,7 +732,7 @@
 /* Dark Mode */
 @media only screen and (min-width: 0em) {
   body.dark-mode #pricing-4987 .cs-topper {
-    color: var(--primary);
+    color: var(--primaryLight);
   }
   body.dark-mode #pricing-4987 .cs-title,
   body.dark-mode #pricing-4987 .cs-text {

@@ -199,7 +199,7 @@
     background-color: var(--medium);
   }
   body.dark-mode #sbs .cs-topper {
-    color: var(--secondary);
+    color: var(--primary);
   }
   body.dark-mode #sbs .cs-title,
   body.dark-mode #sbs .cs-text,
@@ -611,7 +611,7 @@
     background-color: var(--medium);
   }
   body.dark-mode #sbs .cs-topper {
-    color: var(--secondary);
+    color: var(--primaryLight);
   }
   body.dark-mode #sbs .cs-title,
   body.dark-mode #sbs .cs-text,
@@ -873,6 +873,9 @@
   body.dark-mode #services-6145 .cs-item:hover .cs-h3,
   body.dark-mode #services-6145 .cs-item:hover .cs-item-p {
     color: #fff;
+  }
+  body.dark-mode #services-6145 .cs-topper {
+    color: var(--primaryLight);
   }
 } 
 /*-- -------------------------- -->
@@ -1259,7 +1262,7 @@
     min-width: 9.375rem;
     margin: 0 0 2rem;
     padding: 0 1.5rem;
-    background-color: var(--primaryLight);
+    background-color: var(--primary);
     border-radius: 0.25rem;
     display: block;
     position: relative;
