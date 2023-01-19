@@ -1,14 +1,17 @@
 ---
 pageName: blog-template
-blogTitle: How Much Does a Solar Panel Installation Cost?
-titleTag: 'Performing Arts High Schools in Houston: a Guide | Cixi Music Studio'
-blogDescription: Curious about solar panel pricing? Find out everything you want to know about solar pricing from a transparent solar installation company.
-author: Joe Mendez
-date: 2022-07-18T15:46:45.249Z
+blogTitle: Why are custom coded websites better than website builders? (e.g. Wordpress, Squarespace)
+titleTag: 'Why are custom coded websites better than website builders? | Blog - Beyond Visual'
+blogDescription: Curious about why custom coded websites are better than your typical page builders? Found out why. 
+author: Joaquin Nafstad
+date: 2022-01-18T15:46:45.249Z
 tags:
   - post
   - featured
-image: /assets/images/cabinets2-m.jpg
+image: /assets/images/carsonpark.jpg
 imageAlt: Solar Panles
 ---
-His etudes and concertos are performed by the world’s leading pianists, and they are famed for their difficulty. Not to mention the International Chopin Piano Competition, an annual affair in Warsaw that springboards the careers of many famous pianists.
+In the early days of the Internet, learning HTML programming was a requirement if you wanted to create a website. With the use of more computer languages like PHP, CSS, JavaScript, and others throughout time, creating websites grew even more challenging.
+
+Fortunately, tools known as website builders also emerged, enabling individuals to make stunning websites without any programming experience. Read this article if you need a website to help you decide if it makes more sense for you to utilize a website builder or to create your own site.
+

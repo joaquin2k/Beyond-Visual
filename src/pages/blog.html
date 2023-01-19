@@ -1,16 +1,16 @@
 ---
 layout: 'base.html'
-description: 'Meta description for the page'
-meta-title: 'Title that shows up on google searches'
-tagTitle: 'Company Name | What They Do | Town and State'
+description: "Meta description for the page"
+meta-title: 'Blog - Beyond Visual | Web Design & Digital Marketing'
+tagTitle: 'Blog - Beyond Visual | Web Design & Digital Marketing'
 permalink: 'blog/'
 eleventyNavigation:
     key: Blog
-    order: 500
+    order: 400
 ---
 
 {% block preload %}
-<link rel="preload" as="image" href="/assets/images/cabinets2-m.jpg">
+<link rel="preload" as="image" href="/assets/images/carsonpark.jpg">
 {% endblock %}
 
 {% block pageCSS %}
@@ -18,17 +18,18 @@ eleventyNavigation:
 {% endblock %}
 
 <!-- Enter html code below -->
+
 <!-- ============================================ -->
 <!--                    LANDING                   -->
 <!-- ============================================ -->
 
 <section id="int-hero">
-  <h1 id="home-h">Blog</h1>
-  <picture>
-      <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-      <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-      <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" width="400" height="662">
-  </picture>
+    <h1 id="home-h">Blog</h1>
+    <picture>
+        <source media="(max-width: 600px)" srcset="/assets/images/carsonpark.jpg">
+        <source media="(min-width: 601px)" srcset="/assets/images/carsonpark.jpg">
+        <img aria-hidden="true" decoding="async" src="/assets/images/carsonpark.jpg" alt="cabinets" width="400" height="662">
+    </picture>
 </section>
 
 <!-- ============================================ -->
@@ -93,4 +94,3 @@ eleventyNavigation:
 
   {% include 'featured-post.html' %}
 </div>
-

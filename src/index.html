@@ -2,17 +2,17 @@
 layout: 'base.html'
 canonical: 'Official link for that page (https://www.beyondvisualmarketing.com)'
 description: 'Meta description for the page'
-metaTitle: 'Beyond Visual Digital Marketing'
-tagTitle: 'Beyond Visual | Digital Marketing Agency'
+metaTitle: 'Beyond Visual | Web Design & Digital Marketing'
+tagTitle: 'Beyond Visual | Web Design & Digital Marketing'
 permalink: '/'
 eleventyNavigation:
     key: Home
     order: 100
 ---
 
-<!--  This is to pre load any image above the fold, like hero section backgrounds.
-If you do not have any images in your hero section that you need to preload, remove this 
-block -->
+{% block preload %}
+<link rel="preload" as="image" href="/assets/images/hero.png">
+{% endblock %}
 
 {% block pageCSS %}
 <link rel="stylesheet" href="/css/critical.css">
