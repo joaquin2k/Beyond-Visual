@@ -8,6 +8,20 @@
     z-index: 10000;
     height: auto;
   }
+  #navigation #navbar-menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    /* 14px - 18px */
+    font-size: clamp(0.875rem, 1.5vw, 1.125rem);
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    transition: color .3s;
+  }
+  #dark-mode-toggle .moon {
+    fill: rgb(0, 0, 0);
+  }  
   #navigation .background-color-div {
     position: absolute;
     top: 0;
@@ -338,7 +352,7 @@
     height: 0.42105263em;
     background: var(--primary);
     opacity: 1;
-    bottom: 0.26315789em;
+    bottom: 5pt;
     border-radius: 0.21052632em;
     left: -0.31578947em;
     right: -0.31578947em;

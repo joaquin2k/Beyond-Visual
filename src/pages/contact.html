@@ -33,56 +33,62 @@ eleventyNavigation:
 </section>
 
 <!-- ============================================ -->
-<!--                Contact Form                  -->
-<!-- ============================================ -->
+    <!--                Contact Form                  -->
+    <!-- ============================================ -->
 
-<section id="cs-contact">
-    <div class="cs-container">
-        <form id="cs-form" name="Contact Form" method="post">
+    <section id="cs-contact">
+        <div class="cs-container">
+            <!-- Contact Info -->
             <div class="cs-content">
-                <span class="cs-topper">Contact</span>
-                <h2 class="cs-title">Get in Touch</h2>
+                <span class="cs-topper">Contact Us</span>
+                <h2 class="cs-title">Get In Touch</h2>
                 <p class="cs-text">
                     Let's discuss building a website that you are proud of. We want to hear from you, regardless of how large or little your concern is. We pledge to respond to you within 24 hours.
                 </p>
-            </div>
-            <label>
-                Name
-                <input required type="text" id="name" name="name" placeholder="Name">
-            </label>
-            <label>
-                Email
-                <input required type="text" id="email" name="email" placeholder="Email">
-            </label>
-            <label>
-                Phone
-                <input required type="text" id="phone" name="phone" placeholder="Phone">
-            </label>
-            <label>
-                How Did You Find Us
-                <input type="text" id="find" name="find-us" placeholder="How did you find us?">
-            </label>
-            <label class="cs-label-message">
-                Message
-                <textarea required name="Message" id="message" placeholder="Write message..."></textarea>
-            </label>
-            <button class="cs-button-solid" type="submit">Submit Message</button>
-        </form>
-        <div class="cs-right-section">
-            <!--Email-->
-            <span class="cs-header">Email</span>
-            <a class="cs-link" href="mailto:info@beyondvisualmarketing.com">info@beyondvisualmarketing.com</a>
-            <!--Phone-->
-            <span class="cs-header">Phone</span>
-            <a class="cs-link" href="tel:715-301-0235">(715) 301-0235</a>
+                <!--Email-->
+                <span class="cs-header">Email</span>
+                <a href="info@beyondvisualmarketing.com" class="cs-link">info@beyondvisualmarketing.com</a>
+                <!--Phone-->
+                <span class="cs-header">Phone</span>
+                <a href="tel:715-301-0235" class="cs-link">(715) 301-0235</a>
 
-            <!-- Background Image-->
-            <picture aria-hidden="true" class="cs-bg-picture">
-                <source media="(max-width: 600px)" srcset="/assets/images/contactus.jpg">
-                <source media="(min-width: 601px)" srcset="/assets/images/contactus.jpg">
-                <img loading="lazy" decoding="async" src="/assets/images/contactus.jpg" alt="contactus" width="542" height="662">
-            </picture>
+                <!--Social Buttons-->
+                <div class="cs-social">
+                    <a class="cs-social-link" aria-label="visit google profile" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/google.svg" alt="google" width="11" height="11">
+                    </a>
+                    <a class="cs-social-link" aria-label="visit facebook profile" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook" width="6" height="11">
+                    </a>
+                    <a class="cs-social-link" aria-label="visit instagram profile" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram" width="11" height="11">
+                    </a>
+                </div>
+            </div>
+            <!-- Form -->
+            <form id="cs-form" name="Contact Form" method="post">
+                <label>
+                    Name
+                    <input required type="text" id="name" name="name" placeholder="John/Jane Doe">
+                </label>
+                <label>
+                    Email
+                    <input required type="text" id="email" name="email" placeholder="name@company.com">
+                </label>
+                <label>
+                    Phone
+                    <input required type="text" id="phone" name="phone" placeholder="+1 (123) 456-7890">
+                </label>
+                <label>
+                    How Did You Find Us
+                    <input type="text" id="find" name="find-us" placeholder="Social Media, Family, Friend...">
+                </label>
+                <label class="cs-label-message">
+                    Message
+                    <textarea required name="Message" id="message" placeholder="Hello, I’m interested in..."></textarea>
+                </label>
+                <button class="cs-button-solid" type="submit">Submit</button>
+            </form>
         </div>
-    </div>
-</section>
+    </section>
                                 
