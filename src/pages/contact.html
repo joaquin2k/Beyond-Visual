@@ -32,10 +32,9 @@ eleventyNavigation:
     </picture>
 </section>
 
-<!-- ============================================ -->
+    <!-- ============================================ -->
     <!--                Contact Form                  -->
     <!-- ============================================ -->
-
     <section id="cs-contact">
         <div class="cs-container">
             <!-- Contact Info -->
@@ -51,7 +50,6 @@ eleventyNavigation:
                 <!--Phone-->
                 <span class="cs-header">Phone</span>
                 <a href="tel:715-301-0235" class="cs-link">(715) 301-0235</a>
-
                 <!--Social Buttons-->
                 <div class="cs-social">
                     <a class="cs-social-link" aria-label="visit google profile" href="">
@@ -66,8 +64,7 @@ eleventyNavigation:
                 </div>
             </div>
             <!-- Form -->
-            <form id="cs-form" name="Contact Form" method="post">
-                <label>
+            <form id="cs-form" name="contact" netlify method="POST">
                     Name
                     <input required type="text" id="name" name="name" placeholder="John/Jane Doe">
                 </label>
@@ -85,7 +82,7 @@ eleventyNavigation:
                 </label>
                 <label class="cs-label-message">
                     Message
-                    <textarea required name="Message" id="message" placeholder="Hello, I’m interested in..."></textarea>
+                    <textarea required name="Message" id="message" placeholder="Hello, I am interested in..."></textarea>
                 </label>
                 <button class="cs-button-solid" type="submit">Submit</button>
             </form>
