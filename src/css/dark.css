@@ -19,7 +19,7 @@
   body.dark-mode h4,
   body.dark-mode h5,
   body.dark-mode h6 {
-    color: #fff;
+    color: #f7f7f7;
   }
   body.dark-mode .light {
     display: none;

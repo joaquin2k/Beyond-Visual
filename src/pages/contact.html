@@ -31,61 +31,64 @@ eleventyNavigation:
         <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/carsonpark.jpg" alt="" width="400" height="662">
     </picture>
 </section>
-
     <!-- ============================================ -->
     <!--                Contact Form                  -->
     <!-- ============================================ -->
     <section id="cs-contact">
         <div class="cs-container">
-            <!-- Contact Info -->
-            <div class="cs-content">
-                <span class="cs-topper">Contact Us</span>
-                <h2 class="cs-title">Get In Touch</h2>
-                <p class="cs-text">
-                    Let's discuss building a website that you are proud of. We want to hear from you, regardless of how large or little your concern is. We pledge to respond to you within 24 hours.
-                </p>
-                <!--Email-->
-                <span class="cs-header">Email</span>
-                <a href="info@beyondvisualmarketing.com" class="cs-link">info@beyondvisualmarketing.com</a>
-                <!--Phone-->
-                <span class="cs-header">Phone</span>
-                <a href="tel:715-301-0235" class="cs-link">(715) 301-0235</a>
-                <!--Social Buttons-->
-                <div class="cs-social">
-                    <a class="cs-social-link" aria-label="visit google profile" href="">
-                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/google.svg" alt="google" width="11" height="11">
-                    </a>
-                    <a class="cs-social-link" aria-label="visit facebook profile" href="">
-                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook" width="6" height="11">
-                    </a>
-                    <a class="cs-social-link" aria-label="visit instagram profile" href="">
-                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram" width="11" height="11">
-                    </a>
+            <form id="cs-form" name="Contact Form" method="post">
+                <div class="cs-content">
+                    <span class="cs-topper">Contact</span>
+                    <h2 class="cs-title">Get in Touch</h2>
+                    <p class="cs-text">
+                        Let's discuss building a website that you are proud of. We want to hear from you, regardless of how large or little your concern is. We pledge to respond to you within 24 hours.
+                    </p>
                 </div>
-            </div>
-            <!-- Form -->
-            <form id="cs-form" name="contact" netlify method="POST">
+                <label>
                     Name
-                    <input required type="text" id="name" name="name" placeholder="John/Jane Doe">
+                    <input required type="text" id="name" name="name" placeholder="Name">
                 </label>
                 <label>
                     Email
-                    <input required type="text" id="email" name="email" placeholder="name@company.com">
+                    <input required type="text" id="email" name="email" placeholder="Email">
                 </label>
                 <label>
                     Phone
-                    <input required type="text" id="phone" name="phone" placeholder="+1 (123) 456-7890">
+                    <input required type="text" id="phone" name="phone" placeholder="Phone">
                 </label>
                 <label>
                     How Did You Find Us
-                    <input type="text" id="find" name="find-us" placeholder="Social Media, Family, Friend...">
+                    <input type="text" id="find" name="find-us" placeholder="How did you find us?">
                 </label>
                 <label class="cs-label-message">
                     Message
-                    <textarea required name="Message" id="message" placeholder="Hello, I am interested in..."></textarea>
+                    <textarea required name="Message" id="message" placeholder="Write message..."></textarea>
                 </label>
                 <button class="cs-button-solid" type="submit">Submit</button>
             </form>
+            <div class="cs-right-section">
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <picture class="cs-icon-wrapper">
+                            <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/mail.svg" alt="mail icon" class="cs-icon" width="36" height="36" decoding="async">
+                        </picture>
+                        <div class="cs-flex-group">
+                            <span class="cs-header">Email</span>
+                            <a href="mailto:info@beyondvisualmarketing.com" class="cs-link">info@beyondvisualmarketing.com</a>
+                        </div>
+                    </li>
+                    <li class="cs-li">
+                        <picture class="cs-icon-wrapper">
+                            <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/phone.svg" alt="phone icon" class="cs-icon" width="36" height="36" decoding="async">
+                        </picture>
+                        <div class="cs-flex-group">
+                            <span class="cs-header">Phone</span>
+                            <a href="tel:715-301-0235" class="cs-link">(715) 301-0235</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
+                                
                                 
