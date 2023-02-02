@@ -39,10 +39,18 @@
     {{ pageCSS | safe }}
 
     <!--Put analytics tag here at the bottom to prevent it from render blocking-->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2SL472LQ6L"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    <title>{{ tagTitle }}</title>
-</head>
-<body>
+    gtag('config', 'G-2SL472LQ6L');
+    </script>
+        <title>{{ tagTitle }}</title>
+    </head>
+    <body>
     <!--Screen reader skip main nav-->
     <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
 
