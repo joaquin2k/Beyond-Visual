@@ -1,5 +1,5 @@
 ---
-pageName: blog-template
+pageName: Why-are-analytics-important-for-your-business
 blogTitle: Why are analytics important for your business?
 titleTag: 'Why are analytics important for your business? | Blog - Beyond Visual'
 blogDescription: Curious about why website & marketing analytics important for your business? Found out why. 
