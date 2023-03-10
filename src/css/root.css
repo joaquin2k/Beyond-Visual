@@ -149,6 +149,7 @@
     z-index: 1;
     /* prevents padding from adding to the width */
     box-sizing: border-box;
+    margin-top: 2rem;
   }
   .button-solid:before {
     content: '';
