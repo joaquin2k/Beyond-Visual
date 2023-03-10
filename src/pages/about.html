@@ -1,12 +1,12 @@
 ---
 layout: 'base.html'
 description: "We are an internal team of creative marketing experts with expertise in branding, design, and production established in 2022. We are based in Eau Claire, WI"
-meta-title: 'About Us - Beyond Visual | Web Design & Digital Marketing Eau Claire, WI'
-tagTitle: 'About Us - Beyond Visual | Web Design & Digital Marketing | Eau Claire, WI'
+meta-title: 'About Us - Beyond Visual | Web Design & Digital Marketing | Eau Claire, WI'
+tagTitle: 'About Us'
 permalink: 'about/'
 eleventyNavigation:
     key: About Us
-    order: 300
+    order: 400
 ---
 {% block preload %}
 <link rel="preload" as="image" href="/assets/images/carsonpark.jpg">
@@ -24,14 +24,13 @@ eleventyNavigation:
 <!-- ============================================ -->
 
 <section id="int-hero">
-    <h1 id="home-h">About Us</h1>
+    <h1 id="home-h">About</h1>
     <picture>
         <source media="(max-width: 600px)" srcset="/assets/images/carsonpark.webp">
         <source media="(min-width: 601px)" srcset="/assets/images/carsonpark.jpg">
-        <img aria-hidden="true" decoding="async" src="/assets/images/carsonpark.jpg" alt="cabinets" width="400" height="662">
+        <img srcset="/assets/images/carsonpark.jpg" alt="eau claire" width="400" height="662">
     </picture>
 </section>
-
 <!-- ============================================ -->
 <!--                 Side By Side                 -->
 <!-- ============================================ -->
@@ -43,12 +42,12 @@ eleventyNavigation:
             <picture class="cs-picture cs-picture1" aria-hidden="true">
                 <source media="(max-width: 600px)" srcset="/assets/images/about.webp">
                 <source media="(min-width: 601px)" srcset="/assets/images/about.png">
-                <img loading="lazy" decoding="async" src="/assets/images/about.png" alt="house" width="522" height="581">
+                <img loading="lazy" decoding="async" src="/assets/images/about.png" alt="website design" width="522" height="581">
             </picture>
             <picture class="cs-picture cs-picture2" aria-hidden="true">
                 <source media="(max-width: 600px)" srcset="/assets/images/formal.webp">
                 <source media="(min-width: 601px)" srcset="/assets/images/formal.jpg">
-                <img loading="lazy" decoding="async" src="/assets/images/formal.jpg" alt="house" width="414" height="400">
+                <img loading="lazy" decoding="async" src="/assets/images/formal.jpg" alt="joaquin nafstad owner-founder" width="414" height="400">
             </picture>
         </div>
         <!-- Right Content Section-->
@@ -56,14 +55,13 @@ eleventyNavigation:
             <span class="cs-topper">About Us</span>
             <h2 class="cs-title">About Beyond Visual</h2>
             <p class="cs-text">
-                Whatever you need, we are here to listen, work with you, and provide specialized solutions to help you accomplish all of your business objectives.
-                Although it may make or ruin your company, digital marketing is difficult to master. We are on a mission to strengthen your brand and assist you in controlling your market since we recognize this.
+                Beyond Visual, the best custom web design and digital marketing agency for small businesses based out of Eau Claire, Wisconsin. Our talented team of web designers and digital marketing experts work together to create stunning, responsive websites that help small businesses establish a strong online presence.
             </p>
             <p class="cs-text">
-                Beyond Visual, an internal team of creative marketing experts with expertise in branding, design, and production, was established in 2022. Our superpower is making marketing simple, so you can concentrate on what you do best while knowing that we'll take care of the rest. We are based in Eau Claire, WI, however, we accept clients all around the U.S.
+                At Beyond Visual, we believe that every business deserves a unique, professional website that reflects their brand and values. Our web design process is tailored to meet the needs of each client, ensuring that every website we create is visually appealing, easy to navigate, and optimized for search engines.
             </p>
             <p class ="cs-text">
-                We can help you reposition your company, develop a new brand identity, and make plans for a prosperous future with the aid of our strategic marketing methods.
+                As a leading web design and digital marketing agency, we take pride in delivering exceptional results to our clients. We specialize in a range of services, including website design, search engine optimization (SEO), and marketing analytics. Our goal is to help small businesses succeed by providing them with the tools and expertise they need to reach their target audience and grow their brand online.
             </p>
             <div class="cs-flex-group">
                 <p class="cs-flex-p">
@@ -94,7 +92,7 @@ eleventyNavigation:
                 <picture class="cs-bucket"  aria-hidden="true">
                     <source media="(max-width: 600px)" srcset="/assets/images/finalcta.webp">
                     <source media="(min-width: 601px)" srcset="/assets/images/finalcta.png">
-                    <img loading="lazy" decoding="async" src="/assets/images/finalcta.png" alt="bucket" width="543" height="437">
+                    <img loading="lazy" decoding="async" src="/assets/images/finalcta.png" alt="contact" width="543" height="437">
                 </picture>
             </div>
         </div>
@@ -102,6 +100,6 @@ eleventyNavigation:
         <picture class="cs-background"  aria-hidden="true">
             <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/CTA/fabric-m.png">
             <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/CTA/fabric.png">
-            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/CTA/fabric.png" alt="fabric" width="1920" height="660">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/CTA/fabric.png" alt="contact" width="1920" height="660">
          </picture>
     </section>   

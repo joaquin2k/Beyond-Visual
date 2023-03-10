@@ -133,40 +133,39 @@
   }
   .button-solid {
     font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
+    /* 46px - 56px */
+    line-height: clamp(2.875em, 5.5vw, 3.5em);
     text-decoration: none;
-    display: inline-block;
-    width: auto;
-    line-height: 3.125em;
-    height: 3.125rem;
+    font-weight: 700;
     text-align: center;
-    padding: 0 1.875rem;
+    margin: auto;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
     position: relative;
     z-index: 1;
-    background-color: var(--primary);
-    color: #000;
-    transition: color .3s;
-    transition-delay: .1s;
-  }
-  .button-solid:hover {
-    color: #fff;
-  }
-  .button-solid:hover:before {
-    width: 100%;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
   }
   .button-solid:before {
     content: '';
     position: absolute;
-    display: block;
     height: 100%;
+    width: 0%;
+    background: #000;
     opacity: 1;
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: #000;
-    width: 0;
+    border-radius: 0.25rem;
     transition: width .3s;
+  }
+.button-solid:hover:before {
+    width: 100%;
+  }
   }
   .skip {
     position: absolute;
@@ -175,7 +174,6 @@
     opacity: 0;
     z-index: -1111111;
   }
-}
 /* Reset Margins */
 @media only screen and (min-width: 1024px) {
   body,

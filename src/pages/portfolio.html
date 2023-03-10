@@ -1,0 +1,123 @@
+---
+layout: 'base.html'
+description: 'Check out our portfolio and most recent work today and see why we are are the go-to web design agency for businesses of all sizes!'
+metaTitle: 'Portfolio - Beyond Visual | Web Design & Digital Marketing | Eau Claire, WI'
+tagTitle: 'Portfolio'
+permalink: 'portfolio/'
+eleventyNavigation:
+    key: Portfolio
+    order: 300
+---
+{% block preload %}
+<link rel="preload" as="image" href="/assets/images/carsonpark.jpg">
+<link rel="preload" as="image" href="/assets/images/hero.webp">
+{% endblock %}
+
+{% block pageCSS %}
+<link rel="stylesheet" href="/css/portfolio.css">
+{% endblock %}
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+    <h1 id="home-h">Portfolio</h1>
+    <picture>
+        <source media="(max-width: 600px)" srcset="/assets/images/carsonpark.webp">
+        <source media="(min-width: 601px)" srcset="/assets/images/carsonpark.jpg">
+        <img srcset="/assets/images/carsonpark.jpg" alt="eau claire" width="400" height="662">
+    </picture>
+</section>
+ <!-- ============================================ -->
+    <!--                   Gallery                    -->
+    <!-- ============================================ -->
+
+    <section id="gallery">
+        <div class="cs-container">
+            <span class="cs-topper">Our Portfolio</span>
+            <h2 class="cs-title">View Our Recent Work</h2>
+            <div class="cs-image-group">
+                <!-- Image 1 -->
+                <a class="cs-item" href="">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/mockup2.webp">
+                        <source media="(min-width: 601px)" srcset="/assets/images/mockup2.png">
+                        <img loading="lazy" decoding="async" src="/assets/images/mockup2.png" alt="portfolio" width="346" height="346">
+                    </picture>
+                    <!-- Hover Box -->
+                    <div class="cs-hover-box">
+                        <picture class="cs-icon">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg" alt="portfolio" width="20" height="20">
+                        </picture>
+                        <h3 class="cs-heading3">SpeedstarZ Media</h3>
+                        <p class="cs-hover-box-p">
+                            A videography and cinematography production service company based out of Tampa, FL. 
+                        </p>
+                    </div>
+                </a>
+                <!-- Image 2 -->
+                <a class="cs-item" href="">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/mockup1.webp">
+                        <source media="(min-width: 601px)" srcset="/assets/images/mockup1.png">
+                        <img loading="lazy" decoding="async" src="/assets/images/mockup1.png" alt="portfolio" width="346" height="346">
+                    </picture>
+                    <!-- Hover Box -->
+                    <div class="cs-hover-box">
+                        <picture class="cs-icon">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg" alt="portfolio" width="20" height="20">
+                        </picture>
+                        <h3 class="cs-heading3">Hawkins Companies</h3>
+                        <p class="cs-hover-box-p">
+                            A premier landscaping and property maintenance company with locations in Minneapolis, MN and Des Moine, IA.
+                        </p>
+                    </div>
+                </a>
+                 <!-- Image 3 -->
+                 <a class="cs-item" href="">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/mockup3.webp">
+                        <source media="(min-width: 601px)" srcset="/assets/images/mockup3.png">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/mockup3.png" alt="portfolio" width="346" height="346">
+                    </picture>
+                    <!-- Hover Box -->
+                    <div class="cs-hover-box">
+                        <picture class="cs-icon">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg" alt="portfolio" width="20" height="20">
+                        </picture>
+                        <h3 class="cs-heading3">California Tacos</h3>
+                        <p class="cs-hover-box-p">
+                            A vibrant and authentic Mexican restaurant originally based out of Whitehall, Wisconsin.
+                        </p>
+                    </div>
+                 </a>
+    </section>
+        <!-- ============================================ -->
+    <!--                    CTA                       -->
+    <!-- ============================================ -->
+    <section id="cta">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Contact Us</span>
+                <h2 class="cs-title">Get Started</h2>
+                <p class="cs-text">
+                    Have a project in mind? Let us know how we can help! 
+                </p>
+                <a href="" class="cs-button-solid">Contact</a>
+            </div>
+            <div class="cs-image-group">
+                <!--Phone Image-->
+                <picture class="cs-bucket"  aria-hidden="true">
+                    <source media="(max-width: 600px)" srcset="/assets/images/finalcta.webp">
+                    <source media="(min-width: 601px)" srcset="/assets/images/finalcta.png">
+                    <img loading="lazy" decoding="async" src="/assets/images/finalcta.png" alt="contact" width="543" height="437">
+                </picture>
+            </div>
+        </div>
+        <!--Background Image-->
+        <picture class="cs-background"  aria-hidden="true">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/CTA/fabric-m.png">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/CTA/fabric.png">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/CTA/fabric.png" alt="contact" width="1920" height="660">
+         </picture>
+    </section>   

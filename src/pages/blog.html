@@ -2,11 +2,11 @@
 layout: 'base.html'
 description: "Blogs and recent posts"
 meta-title: 'Blog - Beyond Visual | Web Design & Digital Marketing | Eau Claire, WI'
-tagTitle: 'Blog - Beyond Visual | Web Design & Digital Marketing | Eau Claire, WI'
+tagTitle: 'Blog'
 permalink: 'blog/'
 eleventyNavigation:
     key: Blog
-    order: 400
+    order: 500
 ---
 {% block preload %}
 <link rel="preload" as="image" href="/assets/images/carsonpark.jpg">
@@ -24,12 +24,12 @@ eleventyNavigation:
 <!-- ============================================ -->
 
 <section id="int-hero">
-    <h1 id="home-h">Blog</h1>
-    <picture>
-        <source media="(max-width: 600px)" srcset="/assets/images/carsonpark.webp">
-        <source media="(min-width: 601px)" srcset="/assets/images/carsonpark.jpg">
-        <img aria-hidden="true" decoding="async" src="/assets/images/carsonpark.jpg" alt="cabinets" width="400" height="662">
-    </picture>
+  <h1 id="home-h">Blog</h1>
+  <picture>
+      <source media="(max-width: 600px)" srcset="/assets/images/carsonpark.webp">
+      <source media="(min-width: 601px)" srcset="/assets/images/carsonpark.jpg">
+      <img srcset="/assets/images/carsonpark.jpg" alt="eau claire" width="400" height="662">
+  </picture>
 </section>
 
 <!-- ============================================ -->
