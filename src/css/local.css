@@ -1566,7 +1566,7 @@
     text-align: center;
     letter-spacing: .1em;
     font-weight: 700;
-    color: var(--primary);
+    color: var(--primaryLight);
     margin-bottom: 1rem;
     display: block;
   }
