@@ -1566,7 +1566,7 @@
     text-align: center;
     letter-spacing: .1em;
     font-weight: 700;
-    color: var(--primaryLight);
+    color: var(--primary);
     margin-bottom: 1rem;
     display: block;
   }
@@ -1723,6 +1723,9 @@
 @media only screen and (min-width: 0em) {
   body.dark-mode #gallery .cs-title {
     color: var(--bodyTextColorWhite);
+  }
+   body.dark-mode #gallery .cs-topper {
+    color: var(--primaryLight)
   }
 }
                                 
