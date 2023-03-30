@@ -37,30 +37,3 @@ A website serves as a company's most fundamental building component in the digit
 
 Thus, a website is among the most crucial digital marketing tools at a brand's disposal. Your audience receives knowledge and engagement from it. In turn, you receive information and insights.
             </p>         
-            <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.beyondvisualmarketing.com/why-are-analytics-important-for-your-business"
-  },
-  "headline": "Why are analytics important for your business?",
-  "description": "Curious about why website & marketing analytics important for your business? Found out why.",
-  "image": "https://www.beyondvisualmarketing.com/assets/images/blogpost2.jpg",  
-  "author": {
-    "@type": "Organization",
-    "name": ""
-  },  
-  "publisher": {
-    "@type": "Organization",
-    "name": "Beyond Visual",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.beyondvisualmarketing.com/assets/images/light-logo.svg"
-    }
-  },
-  "datePublished": "2023-01-18",
-  "dateModified": "2023-03-20"
-}
-</script>

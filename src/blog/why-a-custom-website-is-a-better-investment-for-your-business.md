@@ -48,30 +48,3 @@ A custom website design gives your business a competitive advantage over busines
             </p>
 
 <p class="cs-text">In conclusion, investing in a custom website design is a wise investment for your business. A custom website design offers flexibility, better user experience, SEO optimization, security, and a competitive advantage. It is an investment that pays off in the long run, providing your business with a professional online presence that helps to attract and retain customers. If you're looking to improve your online presence, contact Beyond Visual, a custom web design and development company today to get started!</p>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.beyondvisualmarketing.com/why-a-custom-website-is-a-better-investment-for-your-business.html"
-  },
-  "headline": "Why a Custom Website is a Better Investment for Your business",
-  "description": "A custom website is a better investment for your business because it offers full customization and flexibility, better user experience, SEO optimization, enhanced security, and competitive advantage. A custom website is tailored to your business's specific needs, represents your brand's unique image, and stands out from the competition, attracting and retaining customers in the long run.",
-  "image": "https://www.beyondvisualmarketing.com/assets/images/blogpost2.jpg",  
-  "author": {
-    "@type": "Organization",
-    "name": ""
-  },  
-  "publisher": {
-    "@type": "Organization",
-    "name": "Beyond Visual",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.beyondvisualmarketing.com/assets/images/light-logo.svg"
-    }
-  },
-  "datePublished": "2023-02-23",
-  "dateModified": "2023-03-20"
-}
-</script>

@@ -63,30 +63,3 @@ If you're looking for an agency that understands small business owners like your
 <p class="cs-text">As a small business owner, you are likely to have many responsibilities and not enough time. Web design and development is no exception. However, if you want to make sure that your website is up-to-date with the latest trends in digital marketing and user experience design, then it's worth hiring an agency like Beyond Visual to handle this aspect of your business.
 We're happy to help! If you need custom web design or digital marketing services for your small business, contact us today at info@beyondvisualmarketing.com
 </p>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.beyondvisualmarketing.com/the-benefits-of-hiring-a-web-design-and-development-agency-for-small-businesses.html"
-  },
-  "headline": "The Benefits of Hiring a Web Design and Development Agency for Small Businesses",
-  "description": "In the current digital era, a website is an essential part of any small business's marketing plan. It is often the first point of contact between a business and its potential customers. Therefore, it's important to have a website that not only looks great but also functions well. This is where a web design and development agency like Beyond Visual can be invaluable.",
-  "image": "https://www.beyondvisualmarketing.com/assets/images/blogpost3.png",  
-  "author": {
-    "@type": "Organization",
-    "name": ""
-  },  
-  "publisher": {
-    "@type": "Organization",
-    "name": "Beyond Visual",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.beyondvisualmarketing.com/assets/images/light-logo.svg"
-    }
-  },
-  "datePublished": "2023-03-13",
-  "dateModified": "2023-03-20"
-}
-</script>
