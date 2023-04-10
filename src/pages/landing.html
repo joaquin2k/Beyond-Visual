@@ -1,0 +1,413 @@
+---
+layout: 'base.html'
+description: 'Beyond Visual is a website design & marketing agency specializing in designing and developing custom-coded websites for small businesses. We are based in Eau Claire, WI'
+metaTitle: 'Beyond Visual | Web Design & Digital Marketing | Eau Claire, WI'
+tagTitle: 'Beyond Visual | Web Design & Digital Marketing | Eau Claire, WI'
+permalink: 'landing/'
+
+---
+{% block preload %}
+<link rel="preload" as="image" href="/assets/images/hero.png">
+<link rel="preload" as="image" href="/assets/images/hero.webp">
+{% endblock %}
+
+{% block pageCSS %}
+<link rel="stylesheet" href="/css/critical.css">
+<link rel="stylesheet" href="/css/landing.css">
+
+<!--Defer loading the whole page css-->
+<link rel="stylesheet" href="/css/landing.css" media="print" onload="this.media='all'; this.onload=null;">
+{% endblock %}
+<!-- ============================================ -->
+    <!--                Side By Side                  -->
+    <!-- ============================================ -->
+
+    <section id="sbs-515">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Small Business</span>
+                <h2 class="cs-title">Unique <span class="cs-color">Custom Coded</span> Website Design & Development</h2>
+                <p class="cs-text">
+                    No WordPress or page builders - Our websites are 100% custom-coded. We create and manage your website so that you don't have to. Starting at $150/mo.
+                </p>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/pencil.svg" alt="unlimited edits icon" width="40" height="40">
+                        Unlimited Edits
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-icon" aria-hidden="true" src="https://beyondvisual.s3.us-east-2.amazonaws.com/phone-svgrepo-com.svg" alt="24/7 customer service icon" width="40" height="40">
+                        24/7 Customer Service
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-icon" aria-hidden="true" src="https://beyondvisual.s3.us-east-2.amazonaws.com/money-svgrepo-com.svg" alt="hosting fees included icon" width="40" height="40">
+                        Hosting Fees Included
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-icon" aria-hidden="true" src="https://beyondvisual.s3.us-east-2.amazonaws.com/monitor-settings-svgrepo-com.svg" alt="custom built icon" width="40" height="40">
+                        Custom Built For Your Business
+                    </li>
+                </ul>
+                <a href="" class="cs-button-solid">Contact Us</a>
+            </div>
+            <!--Image Group-->
+            <div class="cs-image-group">
+                <ul class="cs-stat-group">
+                    <li class="cs-stat">
+                        <span class="cs-number"><span class="cs-color">$0</span> Down</span>
+                        <span class="cs-desc">No ridiculous downpayment fees.</span>
+                    </li>
+                    <li class="cs-stat">
+                        <span class="cs-number"><span class="cs-color">$150<br></span>Month</span>
+                        <span class="cs-desc">We completely manage your website for you.</span>
+                    </li>
+                </ul>
+                <!--Picture-->
+                <picture class="cs-picture"  aria-hidden="true">
+                    <source media="(max-width: 600px)" srcset="/assets/images/hero.webp">
+                    <source media="(min-width: 601px)" srcset="/assets/images/hero.webp">
+                    <img loading="eager" srcset="/assets/images/hero.webp" alt="hero" width="743" height="759">
+                 </picture>
+            </div>
+        </div>
+    </section>                                             
+  <!-- ============================================ -->
+    <!--                   Services                   -->
+    <!-- ============================================ -->
+    <section id="services-6145">
+        <div class="cs-container">
+            <span class="cs-topper">Best-In-Class</span>
+            <h2 class="cs-title">What We Do</h2>
+            <p class="cs-text">
+                Beyond Visual is a website design & digital marketing agency based in Eau Claire, Wisconsin. We provide monthly website packages that provide an all-inclusive website solution that is completely managed and maintained by us. We take care of everything so you won't have to.
+            </p>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <a href="services/" class="cs-link">
+                        <picture class="cs-picture" aria-hidden="true">
+                            <img class="cs-icon" src="/assets/images/customweb.svg" loading="lazy" decoding="async" alt="custom web design icon" width="512" height="512">
+                        </picture>
+                        <h3 class="cs-h3">Custom Web Design</h3>
+                        <p class="cs-item-p">
+                            No page builders or WordPress - We offer 100% hand-coded websites that produce superior results
+                        </p>
+                    </a>
+                </li>
+                <li class="cs-item">
+                    <a href="services/" class="cs-link">
+                        <picture class="cs-picture" aria-hidden="true">
+                            <img class="cs-icon" src="/assets/images/mobilefirst.svg" loading="lazy" decoding="async" alt="mobile first design icon" width="512" height="512">
+                        </picture>
+                        <h3 class="cs-h3">Mobile-First Design</h3>
+                        <p class="cs-item-p">
+                            We create a mobile-friendly website that looks amazing for every consumer you interact with.
+                        </p>
+                    </a>
+                </li>
+                <li class="cs-item">
+                    <a href="services/" class="cs-link">
+                        <picture class="cs-picture" aria-hidden="true">
+                            <img class="cs-icon" src="/assets/images/optimization.svg" loading="lazy" decoding="async" alt="optimization icon" width="512" height="512">
+                        </picture>
+                        <h3 class="cs-h3">Optimization</h3>
+                        <p class="cs-item-p">
+                           We optimize your website so that it converts. Our websites are SEO-friendly and design for performance.
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>                  
+<!-- ============================================ -->
+    <!--                Why Choose Us                 -->
+    <!-- ============================================ -->
+    <section id="why-choose-3678">
+        <div class="cs-container">
+        <div class="cs-content">
+                <span class="cs-topper">Why Choose Us</span>
+                <h2 class="cs-title">$0 Down<br>$150 Per Month</h2>
+                <p class="cs-text">
+                    $0 down for a standard 5 page small business website.
+                    If you need more, we'll need to provide a custom quote based on the complexity of the job, the number of extra pages, and the amount of time required.
+                <p class="cs-text"> Your website, content, listings, and profiles are all yours. Anytime, without costs or hassles, cancel.</p>
+                <a href="services/" class="cs-button-solid">Services</a>
+            </div>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <img class="cs-icon cs-default" loading="lazy" decoding="async" src="/assets/images/feature1.svg" alt="unlimited edit icon" width="72" height="72">
+                    <img class="cs-icon cs-hover" loading="lazy" decoding="async" src="/assets/images/feature1.svg" alt="unlimited edit icon" width="72" height="72">
+                    <h3 class="cs-h3">Unlimited Edits</h3>
+                    <p class="cs-item-text">
+                        We will make any changes you request that day, at any time. No having to wait until the next business day.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon cs-default" loading="lazy" decoding="async" src="/assets/images/feature2.svg" alt="hosting fees included icon" width="72" height="72">
+                    <img class="cs-icon cs-hover" loading="lazy" decoding="async" src="/assets/images/feature2.svg" alt="hosting fees included icon" width="72" height="72">
+                    <h3 class="cs-h3">Hosting Fees Included</h3>
+                    <p class="cs-item-text">
+                        Hosting fees are built right into the monthly payment. 
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon cs-default" loading="lazy" decoding="async" src="/assets/images/feature3.svg" alt="24/7 customer service icon" width="72" height="72">
+                    <img class="cs-icon cs-hover" loading="lazy" decoding="async" src="/assets/images/feature3.svg" alt="24/7 customer service icon" width="72" height="72">
+                    <h3 class="cs-h3">24/7 Customer Service</h3>
+                    <p class="cs-item-text">
+                        Anytime, day or night, call directly; there are no automated answers. We guarantee we will get back to you that same day.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon cs-default" loading="lazy" decoding="async" src="/assets/images/feature4.svg" alt="google analytics icon" width="72" height="72">
+                    <img class="cs-icon cs-hover" loading="lazy" decoding="async" src="/assets/images/feature4.svg" alt="google analytics icon" width="72" height="72">
+                    <h3 class="cs-h3">Google Analytics</h3>
+                    <p class="cs-item-text">
+                        All of our websites come with Google Analytics so that you do not have to install it. Your website stays up to date with Google's searching guidelines so that your website stays relevant.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon cs-default" loading="lazy" decoding="async" src="/assets/images/feature5.svg" alt="web design and development icon" width="72" height="72">
+                    <img class="cs-icon cs-hover" loading="lazy" decoding="async" src="/assets/images/feature5.svg" alt="web design and development icon" width="72" height="72">
+                    <h3 class="cs-h3">Web Design & Development</h3>
+                    <p class="cs-item-text">
+                        Beautiful custom website designs that blend powerful visual storytelling that are optimized for mobile, performance, and SEO.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon cs-default" loading="lazy" decoding="async" src="/assets/images/feature6.svg" alt="lifetime updates icon" width="72" height="72">
+                    <img class="cs-icon cs-hover" loading="lazy" decoding="async" src="/assets/images/feature6.svg" alt="lifetime updates icon" width="72" height="72">
+                    <h3 class="cs-h3">Lifetime Updates</h3>
+                    <p class="cs-item-text">
+                        In order to ensure that your website is constantly up to date and relevant, we additionally provide lifetime updates. If you ever want a new design, we will rebuild your website at no extra cost.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+       <!-- ============================================ -->
+    <!--                   Gallery                    -->
+    <!-- ============================================ -->
+
+    <section id="gallery">
+        <div class="cs-container">
+            <span class="cs-topper">Our Portfolio</span>
+            <h2 class="cs-title">View Our Recent Work</h2>
+            <div class="cs-image-group">
+                <!-- Image 1 -->
+                <a class="cs-item" href="https://www.speedstarzmedia.com/">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/mockup2.webp">
+                        <source media="(min-width: 601px)" srcset="/assets/images/mockup2.png">
+                        <img loading="lazy" decoding="async" src="/assets/images/mockup2.png" alt="responsive website design" width="346" height="346">
+                    </picture>
+                    <!-- Hover Box -->
+                    <div class="cs-hover-box">
+                        <picture class="cs-icon">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg" alt="responsive website design" width="20" height="20">
+                        </picture>
+                        <h3 class="cs-heading3">SpeedstarZ Media</h3>
+                        <p class="cs-hover-box-p">
+                            A videography and cinematography production service company based out of Tampa, FL. 
+                        </p>
+                    </div>
+                </a>
+                <!-- Image 2 -->
+                <a class="cs-item" href="https://thehawkinscompanies.com/">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/mockup1.webp">
+                        <source media="(min-width: 601px)" srcset="/assets/images/mockup1.png">
+                        <img loading="lazy" decoding="async" src="/assets/images/mockup1.png" alt="responsive website design" width="346" height="346">
+                    </picture>
+                    <!-- Hover Box -->
+                    <div class="cs-hover-box">
+                        <picture class="cs-icon">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg" alt="responsive website design" width="20" height="20">
+                        </picture>
+                        <h3 class="cs-heading3">Hawkins Companies</h3>
+                        <p class="cs-hover-box-p">
+                            A premier landscaping and property maintenance company with locations in Minneapolis, MN and Des Moine, IA.
+                        </p>
+                    </div>
+                </a>
+                 <!-- Image 3 -->
+                 <a class="cs-item" href="https://californiatacos.netlify.app/">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/mockup3.webp">
+                        <source media="(min-width: 601px)" srcset="/assets/images/mockup3.png">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/mockup3.png" alt="responsive website design" width="346" height="346">
+                    </picture>
+                    <!-- Hover Box -->
+                    <div class="cs-hover-box">
+                        <picture class="cs-icon">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg" alt="responsive website design" width="20" height="20">
+                        </picture>
+                        <h3 class="cs-heading3">California Tacos</h3>
+                        <p class="cs-hover-box-p">
+                            A vibrant and authentic Mexican restaurant originally based out of Whitehall, Wisconsin.
+                        </p>
+                    </div>
+                 </a>
+    </section>
+                                    
+    <!-- ============================================ -->
+    <!--                  Pricing                     -->
+    <!-- ============================================ -->
+    <section id="pricing-4987">
+        <div class="cs-container">
+            <span class="cs-topper">Pricing</span>
+            <h2 class="cs-title">Choose Your Plan</h2>
+            <p class="cs-text">
+                At Beyond Visual, we provide package pricing and plans that may be customized to meet your small business needs. Contact us to find out more.
+            </p>
+            <ul class="cs-card-group">
+                <!-- Option 1 -->
+                <li class="cs-item">
+                    <h3 class="cs-h3">Performance</h3>
+                    <p class="cs-item-text">
+                        Inlcudes standard features plus analytic insights.
+                    </p>
+                    <span class="cs-price cs-option1-text">$300/mo</span>
+                    <a href="/contact" class="cs-button-solid">Get Started</a>
+                    <span class="cs-included">What's included?</span>
+                    <ul class="cs-ul">
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="digital marketing" width="20" height="20">
+                            Ongoing data insight and analytic consulting
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="digital marketing" width="20" height="20">
+                            Monthly reporting + performance breakdown
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="digital marketing" width="20" height="20">
+                            KPI and marketing measurement
+                        </li>
+                    </ul>
+                </li>
+                <!-- Option 2 -->
+                <li class="cs-item cs-popular">
+                    <h3 class="cs-h3">Standard</h3>
+                    <p class="cs-item-text">
+                        Great for small businesses looking for a 5 page website.
+                    </p>
+                    <span class="cs-price cs-option1-text">$150/mo</span>
+                    <a href="/contact" class="cs-button-solid">Get Started</a>
+                    <span class="cs-included">What's included?</span>
+                    <ul class="cs-ul">
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="checkmark icon" width="20" height="20">
+                            Unlimited edits
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="checkmark icon" width="20" height="20">
+                            24/7 Customer service
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="checkmark icon" width="20" height="20">
+                            Includes hosting
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="checkmark icon" width="20" height="20">
+                            Lifetime updates
+                        </li>
+                    </ul>
+                </li>
+                <!-- Option 3 -->
+                <li class="cs-item">
+                    <h3 class="cs-h3">Customized Package</h3>
+                    <p class="cs-item-text">
+                        We offer customizable and flexible pricing based on your business needs.
+                    </p>
+                    <span class="cs-price cs-option1-text">Contact Us</span>
+                    <a href="/contact" class="cs-button-solid">Get Started</a>
+                    <span class="cs-included">What's included?</span>
+                    <ul class="cs-ul">
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="expert web development" width="20" height="20">
+                            Flexible Pricing
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="expert web development" width="20" height="20">
+                            Upfront or annual pricing
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="expert web development" width="20" height="20">
+                            Tailored to fit your needs
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>                                                     
+<!-- ============================================ -->
+<!--                    Form                      -->
+<!-- ============================================ -->
+
+<section id="cs-contact-486">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Contact us and <span class="cs-color">lets build a website</span></h2>
+            <p class="cs-text">
+                We would love to hear about your project and discuss how we can help. Please fill the form on the right side to schedule a call or discussion and meet at your convenient time.
+            </p>
+            <span class="cs-heading">We pledge to respond to you within 24 hours.</span>
+        </div>
+        <!--Form-->
+        <form id="cs-form-486" name="Contact Form" method="post" data-netlify="true" >
+            <h3 class="cs-h3">Get In Touch</h3>
+            <label class="cs-label">
+                Name
+                <input class="cs-input" required type="text" id="name-486" name="name" placeholder="Name">
+            </label>
+            <label class="cs-label">
+                Phone
+                <input class="cs-input" required type="text" id="phone-486" name="phone" placeholder="Phone">
+            </label>
+            <label class="cs-label">
+                Email
+                <input class="cs-input" required type="text" id="email-486" name="email" placeholder="Email">
+            </label>
+            <label class="cs-label">
+                How Did You Find Us
+                <input class="cs-input" type="text" id="find-486" name="find-us" placeholder="How did you find us?">
+            </label>
+            <label class="cs-label">
+                Message
+                <input class="cs-input" type="text" id="find-486" name="find-us" placeholder="Message">
+            </label>
+            </label>
+            <button class="cs-button-solid cs-submit" type="submit">Submit Message</button>
+        </form>
+    </div>
+</section>
+  <!-- ============================================ -->
+<!--                   Stats                      -->
+<!-- ============================================ -->
+
+<!-- No headers, so no section tag -->
+<div id="contact-strip-719">
+    <ul class="cs-stat-group">
+        <li class="cs-item">
+            <picture class="cs-picture" aria-hidden="true">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fphone-stroke-light.svg" alt="icon" width="35" height="40" loading="lazy" decoding="async">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-header">Phone</span>
+                <a href="tel:715-301-0235" class="cs-link">+1 (715) 301 0235</a>
+            </div>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-picture" aria-hidden="true">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fmail-stroke-light.svg" alt="icon" width="40" height="35" loading="lazy" decoding="async">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-header">Email</span>
+                <a href="mailto:Info@beyondvisualmarketing.com" class="cs-link">Info@beyondvisualmarketing.com</a>
+            </div>
+        </li>
+        </li>
+    </ul>
+    <!--SVG Waves Background-->
+    <img class="cs-background" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FGraphics%2Fwaves-3.svg" alt="wave graphic" width="1920" height="318" loading="lazy" decoding="async" aria-hidden="true">
+</div>
+                                                
