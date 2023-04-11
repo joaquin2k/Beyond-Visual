@@ -1644,7 +1644,6 @@
     gap: 3rem;
     position: relative;
     z-index: 1;
-    margin-top: -5rem;
   }
   #cs-contact-486 .cs-container:before {
     /* glowing orb */
@@ -1718,6 +1717,7 @@
   #cs-contact-486 .cs-heading:last-of-type {
     /* make the last one have the margin bottom to create the space between the contact info */
     margin-bottom: 0.75rem;
+    margin-top: 1.25rem;
   }
   #cs-contact-486 .cs-link {
     /* 14px - 16px */
